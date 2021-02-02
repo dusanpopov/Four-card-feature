@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 :root{
     --primary-red: hsl(0, 78%, 62%);
     --primary-cyan: hsl(180, 62%, 55%);
@@ -26,8 +30,8 @@ body{
 }
 
 .main-header{
-    margin: 50px auto;
-    max-width: 500px;
+    margin: 5rem auto;
+    max-width: 50rem;
     text-align: center;
 }
 
@@ -47,28 +51,28 @@ body{
 .container{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1140px;
+    max-width: 114rem;
     margin: 0 auto;
     justify-content: center;
 }
 
 .box{
     background-color: #fff;
-    padding: 30px;
-    width: 350px;
-    margin: 15px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    padding: 3rem;
+    width: 35rem;
+    margin: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
 }
 
 .box__title{
     margin: 0;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 .box__text{
-    font-size: 14px;
-    margin: 15px 0 30px;
+    font-size: 1.4rem;
+    margin: 1.5rem 0 3rem;
 }
 
 .box__image{
@@ -77,19 +81,19 @@ body{
 }
 
 .box-1{
-    border-top: 5px solid var(--primary-cyan);
+    border-top: .5rem solid var(--primary-cyan);
 }
 
 .box-2{
-    border-top: 5px solid var(--primary-red);
+    border-top: .5rem solid var(--primary-red);
 }
 
 .box-3{
-    border-top: 5px solid var(--primary-blue);
+    border-top: .5rem solid var(--primary-blue);
 }
 
 .box-4{
-    border-top: 5px solid var(--primary-orange);
+    border-top: .5rem solid var(--primary-orange);
 }
 
 .box-1, .box-3{
@@ -97,7 +101,7 @@ body{
 }
 
 
-@media (max-width: 777px){
+@media (max-width: 77.7rem){
     .box-1, .box-3{
         transform: translateY(0);
     }
